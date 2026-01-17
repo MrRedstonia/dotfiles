@@ -38,16 +38,21 @@ window#waybar {
     color: #dcdcdc;
 }
 
-#custom-workspace-spy {
-    padding: 0 6px;
-    min-width: 16px;
+#workspaces {
+    padding: 0px 0px;
+}
+
+#workspaces button {
+    padding: 1px 0px 5px 1px;
+    min-width: 12px;
     font-size: 16px;
     background: rgba(50, 50, 50, 0.4);
     border-radius: 12px;
     border: solid;
     border-width: 2px;
     border-color: rgb(60, 60, 60);
-    margin: 0px 5px; 
+    margin: 0px 5px;
+    color: #dcdcdc;
 }
 
 #tray {
