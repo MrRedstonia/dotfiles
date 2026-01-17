@@ -15,7 +15,7 @@
 - hyprlock*
 - waybar*
 - wofi*
-- bash
+- bash*
 - starship
 - git
 - wl-clipboard
