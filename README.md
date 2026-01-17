@@ -86,6 +86,14 @@ eval "$(starship init bash)"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 ```
 
+Make sure that all necessary files are executable:
+```
+chmod +x ~/.config/hypr/scripts/*.sh
+chmod +x ~/.config/hypr/scripts/screenshot/*.sh
+chmod +x ~/.config/wofi/emoji-picker/emoji-picker.sh
+chmod +x ~/.config/waybar/scripts/volume-toggle.sh
+```
+
 ---
 
 #### Sudo permissions:
