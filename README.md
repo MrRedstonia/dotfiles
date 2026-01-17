@@ -35,8 +35,8 @@
 - mangohud
 - swaync
 - cliphist
-- kitty
-- dolphin*
+- kitty*
+- dolphin
 - librewolf-bin (AUR)
 - mission-center
 - python*
