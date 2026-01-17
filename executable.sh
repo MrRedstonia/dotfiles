@@ -5,12 +5,12 @@
         "$HOME/.config/hypr/scripts/screenshot/region.sh"
         "$HOME/.config/hypr/scripts/screenshot/monitor.sh"
         "$HOME/.config/hypr/scripts/screenshot/window.sh"
-        "$HOME/.config/hypr/scripts/screenshot/fullscreen"
+        "$HOME/.config/hypr/scripts/screenshot/fullscreen.sh"
         "$HOME/.config/hypr/scripts/close.sh"
         "$HOME/.config/hypr/scripts/power_menu.sh"
         "$HOME/.config/hypr/scripts/power_restore.sh"
         "$HOME/.config/hypr/scripts/power_save.sh"
-        "$HOME/.config/wofi/emoji-picker.sh"
+        "$HOME/.config/wofi/emoji-picker/emoji-picker.sh"
         "$HOME/.config/waybar/scripts/volume-toggle.sh"
     )
 
