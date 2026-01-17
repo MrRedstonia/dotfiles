@@ -45,6 +45,7 @@
 - fastfetch
 - ttf-firacode-nerd (or any nerd font)
 - noto-fonts-emoji
+- ttf-dejavu
 <br><br>
 
 ---
@@ -55,7 +56,7 @@ I have made a convenience script called `install.sh` that guides you through the
 
 #### Install packages:
 ```
-sudo pacman -S --needed hyprland hypridle hyprlock waybar wofi bash starship git wl-clipboard grim slurp jq playerctl pipewire pipewire-pulse wireplumber pipewire-alsa pavucontrol network-manager-applet polkit-kde-agent swww mangohud swaync cliphist kitty dolphin mission-center python tk cpupower fastfetch ttf-firacode-nerd noto-fonts-emoji
+sudo pacman -S --needed hyprland hypridle hyprlock waybar wofi bash starship git wl-clipboard grim slurp jq playerctl pipewire pipewire-pulse wireplumber pipewire-alsa pavucontrol network-manager-applet polkit-kde-agent swww mangohud swaync cliphist kitty dolphin mission-center python tk cpupower fastfetch ttf-firacode-nerd noto-fonts-emoji ttf-dejavu
 ```
 Using an AUR helper like yay or paru:
 ```
@@ -75,7 +76,7 @@ Alternatively, if you prefer, you can install it manually.
 
 #### Install packages:
 ```
-sudo pacman -S --needed hyprland hypridle hyprlock waybar wofi bash starship git wl-clipboard grim slurp jq playerctl pipewire pipewire-pulse wireplumber pipewire-alsa pavucontrol network-manager-applet polkit-kde-agent swww mangohud swaync cliphist kitty dolphin mission-center python tk cpupower fastfetch ttf-firacode-nerd noto-fonts-emoji
+sudo pacman -S --needed hyprland hypridle hyprlock waybar wofi bash starship git wl-clipboard grim slurp jq playerctl pipewire pipewire-pulse wireplumber pipewire-alsa pavucontrol network-manager-applet polkit-kde-agent swww mangohud swaync cliphist kitty dolphin mission-center python tk cpupower fastfetch ttf-firacode-nerd noto-fonts-emoji ttf-dejavu
 ```
 Using an AUR helper like yay or paru:
 ```
