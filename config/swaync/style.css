@@ -1,0 +1,219 @@
+* {
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free", monospace;
+    font-weight: bold;
+}
+
+scrollbar, scrollbar trough, scrollbar slider {
+    min-height: 0px;
+    min-width: 0px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+scrolledwindow overshoot, scrolledwindow undershoot {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.control-center scrollbar {
+    display: none; 
+}
+
+.control-center {
+    background: rgba(0, 0, 0, 0.6);
+    border: none;
+    box-shadow: inset 0 0 0 2px #33ccffee; 
+    border-radius: 12px;
+}
+
+.control-center .notification-row {
+    background-color: transparent;
+}
+
+.control-center .notification-row:focus, 
+.control-center .notification-row:hover {
+    background-color: transparent;
+}
+
+.widget-notifications {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+.notification-group, 
+.notification-row, 
+.control-center .notification-row {
+    background: transparent;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+.control-center .notification-row:focus, 
+.control-center .notification-row:hover,
+.notification-group:focus,
+.notification-group:hover {
+    background: transparent;
+    background-color: transparent;
+    box-shadow: none; 
+}
+
+.notification-group-header {
+    font-size: 1rem;
+    color: #efefef;
+    margin: 5px 10px;
+}
+
+.notification-group-icon {
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+}
+
+.notification {
+    box-shadow: none;
+    border-radius: 12px;
+    margin: 6px 2px; 
+    border: 1px solid #333333;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.notification:hover {
+    border: 1px solid #33ccffee;
+}
+
+.notification-content {
+    padding: 10px;
+}
+
+.summary {
+    color: #efefef;
+    font-size: 1rem;
+}
+
+.body {
+    color: #e9e9e9;
+    font-size: 0.9rem;
+}
+
+.time {
+    color: #777777;
+    margin-right: 24px;
+}
+
+.close-button {
+    background: #333333;
+    color: white;
+    text-shadow: none;
+    padding: 0;
+    border-radius: 100%;
+    margin-top: 5px;
+    margin-right: 5px;
+    box-shadow: none;
+    border: none;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.close-button:hover {
+    background: #33ccffee;
+    color: black;
+}
+
+.widget-title {
+    color: #efefef;
+    background: transparent;
+    border-bottom: 1px solid #333333;
+    padding: 15px;
+    
+    /* FIX: Add 2px side margins so the gray line sits INSIDE the cyan border */
+    margin: 0 2px; 
+    
+    font-size: 1.2rem;
+    border-radius: 0px;
+}
+
+.widget-title > button {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    border-radius: 12px;
+    padding: 4px 12px;
+    font-size: 0.9rem;
+}
+
+.widget-title > button:hover {
+    background: #33ccffee;
+    color: #000000;
+    border: 2px solid #33ccffee;
+}
+
+.widget-label {
+    color: #ffffff;
+}
+
+.widget-dnd {
+    background: transparent;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.widget-dnd > switch {
+    border-radius: 20px;
+    background: #333;
+    box-shadow: none;
+    border: 1px solid transparent; 
+}
+
+.widget-dnd > switch:checked {
+    background: #33ccffee;
+    border: 1px solid #33ccffee;
+}
+
+.widget-dnd > switch slider {
+    background: #fff;
+    border-radius: 20px;
+}
+
+.widget-mpris {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid #333;
+    margin: 10px 15px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.widget-mpris > box > button {
+    border-radius: 12px;
+}
+
+.widget-backlight {
+    background: rgba(255, 255, 255, 0.05);
+    margin: 10px 15px;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+trough {
+    background: #111;
+    border-radius: 12px;
+    border: none;
+    min-height: 8px;
+}
+
+highlight {
+    background: #33ccffee;
+    border-radius: 12px;
+}
+
+slider {
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 100%;
+}

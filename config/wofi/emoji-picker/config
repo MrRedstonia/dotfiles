@@ -1,0 +1,11 @@
+# ~/.config/wofi/config
+mode=drun
+term=kitty
+prompt=Search...
+insensitive=true
+no_actions=true
+hide_scroll=false
+lines=8
+columns=1
+allow_images=true
+width=600

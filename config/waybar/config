@@ -1,0 +1,57 @@
+{
+    "layer": "bottom",
+    "position": "top",
+    "height": 39,
+    "modules-left": ["hyprland/workspaces", "tray"],
+    "modules-center": ["clock"],
+    "modules-right": ["custom/vpn", "cpu", "temperature", "pulseaudio", "custom/notifications"],
+
+    "hyprland/workspaces": {
+        "format": "{id}",
+    }
+
+    "clock": {
+        "format": "{:%H:%M:%S}",
+        "tooltip-format": "{:%A, %d %B %Y}",
+	"interval": 1
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "",
+        "format-icons": ["", "", ""],
+	"on-click": "~/.config/waybar/scripts/volume-toggle.sh" 
+   },
+
+    "custom/notifications": {
+	"format": "󰂚",
+	"on-click": "swaync-client -t"
+    },
+
+    "tray": {
+        "spacing": 10
+    },
+
+    "custom/vpn": {
+        "format": "{}",
+        "exec": "~/.config/waybar/scripts/vpn.sh",
+        "return-type": "json",
+        "interval": 2,
+        "on-click": "~/.config/waybar/scripts/vpn.sh toggle",
+        "on-click-right": "~/.config/waybar/scripts/vpn.sh disconnect",
+        "tooltip": true
+    },
+
+    "cpu": {
+        "interval": 2,
+        "format": "󰍛 {usage}%",
+        "max-length": 10
+    },
+
+    "temperature": {
+        "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
+        "format": "󰍛 {temperatureC}°C",
+        "critical-threshold": 80,
+        "tooltip": false
+   }
+}
