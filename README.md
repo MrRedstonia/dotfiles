@@ -25,7 +25,6 @@
 - wireplumber*
 - pipewire-alsa*
 - pavucontrol
-- network-manager
 - network-manager-applet
 - polkit-kde-agent*
 - swww*
