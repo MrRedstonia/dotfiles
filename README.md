@@ -15,6 +15,7 @@
 - hyprlock*
 - waybar*
 - wofi*
+- git
 - wl-clipboard
 - grim
 - slurp
@@ -45,7 +46,7 @@
 <br><br>
 #### Easy install:
 ```
-sudo pacman -S --needed hyprland hypridle hyprlock waybar wofi wl-clipboard grim slurp jq playerctl pipewire pipewire-pulse wireplumber pipewire-alsa pavucontrol network-manager-applet polkit-kde-agent swww mangohud swaync cliphist kitty dolphin mission-center python tk cpupower fastfetch ttf-firacode-nerd
+sudo pacman -S --needed hyprland hypridle hyprlock waybar wofi git wl-clipboard grim slurp jq playerctl pipewire pipewire-pulse wireplumber pipewire-alsa pavucontrol network-manager-applet polkit-kde-agent swww mangohud swaync cliphist kitty dolphin mission-center python tk cpupower fastfetch ttf-firacode-nerd
 ```
 Using an AUR helper like yay or paru:
 ```
