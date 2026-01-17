@@ -1,5 +1,6 @@
 # The dotfiles for my Hyprland setup
-### ⚠️ This is currently a work in progress, and stuff might not work properly, and I have not made an install script yet.
+### ⚠️ This is currently a work in progress. 
+### Things might not work properly, and I have not made an install script yet.
 
 
 <img src="images/homescreen.png" alt="terminal screenshot" width="500"/>
