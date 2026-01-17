@@ -8,7 +8,7 @@
 
     "hyprland/workspaces": {
         "format": "{id}",
-    }
+    },
 
     "clock": {
         "format": "{:%H:%M:%S}",
