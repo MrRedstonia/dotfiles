@@ -1,6 +1,6 @@
 # The dotfiles for my Hyprland setup modified to work universally with all (most) setups
 ### ⚠️ This is currently a work in progress. 
-### Things might be a little buggy, or just straight up not work at all, and I have not made an install script yet.
+### Things might be a little buggy, or just straight up not work at all.
 
 <img src="images/homescreen.png" alt="terminal screenshot" width="500"/>
 
