@@ -53,6 +53,16 @@
 
 I have made a convenience script called `install.sh` that guides you through the installation.
 
+#### Install packages:
+```
+sudo pacman -S --needed hyprland hypridle hyprlock waybar wofi bash starship git wl-clipboard grim slurp jq playerctl pipewire pipewire-pulse wireplumber pipewire-alsa pavucontrol network-manager-applet polkit-kde-agent swww mangohud swaync cliphist kitty dolphin mission-center python tk cpupower fastfetch ttf-firacode-nerd noto-fonts-emoji
+```
+Using an AUR helper like yay or paru:
+```
+yay -S mpvpaper librewolf-bin
+```
+
+#### Run the script:
 Clone/Download the repo and run the script, or run it directly without cloning the repo first with this command (requires git and curl):
 
 ```
