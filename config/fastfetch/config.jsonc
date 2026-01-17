@@ -71,12 +71,6 @@
             "keyColor": "yellow"
         },
         {
-           "type": "command",
-           "key": "├  VPN",
-           "keyColor": "yellow",
-           "text": "bash -c 'ip link show mullvad &>/dev/null && echo Mullvad || echo Disconnected'"
-        },
-        {
             "type": "shell",
             "key": "├  Shell",
             "keyColor": "yellow"
