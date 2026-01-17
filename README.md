@@ -15,6 +15,7 @@
 - hyprlock*
 - waybar*
 - wofi*
+- starship
 - git
 - wl-clipboard
 - grim
@@ -46,7 +47,7 @@
 <br><br>
 #### Easy install:
 ```
-sudo pacman -S --needed hyprland hypridle hyprlock waybar wofi git wl-clipboard grim slurp jq playerctl pipewire pipewire-pulse wireplumber pipewire-alsa pavucontrol network-manager-applet polkit-kde-agent swww mangohud swaync cliphist kitty dolphin mission-center python tk cpupower fastfetch ttf-firacode-nerd
+sudo pacman -S --needed hyprland hypridle hyprlock waybar wofi starship git wl-clipboard grim slurp jq playerctl pipewire pipewire-pulse wireplumber pipewire-alsa pavucontrol network-manager-applet polkit-kde-agent swww mangohud swaync cliphist kitty dolphin mission-center python tk cpupower fastfetch ttf-firacode-nerd noto-fonts-emoji
 ```
 Using an AUR helper like yay or paru:
 ```
@@ -56,6 +57,14 @@ yay -S mpvpaper librewolf-bin
 Using GitHub: **Click `Code` > `Download ZIP` > move all the config files into .config**
 
 Using Git: `git clone https://github.com/MrRedstonia/dotfiles.git`
+
+❗ Currently, as there is no install script, you need to make sure that all the files are executable.
+
+I have provided a temporary [convenience script](https://raw.githubusercontent.com/MrRedstonia/dotfiles/refs/heads/main/executable.sh) to do this for you, which can be run with:
+
+`curl -sSL curl -sSL https://raw.githubusercontent.com/MrRedstonia/dotfiles/main/executable.sh | bash | bash`
+
+You can also just run the script directly from within the folder you downloaded.
 
 ---
 
