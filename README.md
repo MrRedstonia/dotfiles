@@ -53,7 +53,9 @@ Using an AUR helper like yay or paru:
 yay -S mpvpaper librewolf-bin
 ```
 
-**Click `Code` > `Download ZIP` > move all the config files into .config**
+Using GitHub: **Click `Code` > `Download ZIP` > move all the config files into .config**
+
+Using Git: `git clone https://github.com/MrRedstonia/dotfiles.git`
 
 ---
 
