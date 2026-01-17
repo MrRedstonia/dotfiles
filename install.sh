@@ -45,14 +45,14 @@ fi
 NECESSARY=(
     hyprland hypridle hyprlock waybar wofi bash pipewire 
     pipewire-pulse wireplumber pipewire-alsa polkit-kde-agent 
-    swww dolphin python tk
+    swww kitty python tk
 )
 
 OPTIONAL=(
     starship git wl-clipboard grim slurp jq playerctl 
     pavucontrol network-manager-applet mangohud swaync 
-    cliphist kitty mission-center cpupower fastfetch 
-    ttf-firacode-nerd noto-fonts-emoji mpvpaper librewolf-bin
+    cliphist dolphin mission-center cpupower fastfetch 
+    ttf-firacode-nerd noto-fonts-emoji ttf-dejavu mpvpaper librewolf-bin
 )
 
 echo "🔍 Auditing required packages..."
