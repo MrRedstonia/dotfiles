@@ -4,7 +4,7 @@
     "height": 39,
     "modules-left": ["hyprland/workspaces", "tray"],
     "modules-center": ["clock"],
-    "modules-right": ["custom/vpn", "cpu", "temperature", "pulseaudio", "custom/notifications"],
+    "modules-right": ["cpu", "temperature", "pulseaudio", "custom/notifications"],
 
     "hyprland/workspaces": {
         "format": "{id}",
@@ -30,16 +30,6 @@
 
     "tray": {
         "spacing": 10
-    },
-
-    "custom/vpn": {
-        "format": "{}",
-        "exec": "~/.config/waybar/scripts/vpn.sh",
-        "return-type": "json",
-        "interval": 2,
-        "on-click": "~/.config/waybar/scripts/vpn.sh toggle",
-        "on-click-right": "~/.config/waybar/scripts/vpn.sh disconnect",
-        "tooltip": true
     },
 
     "cpu": {
