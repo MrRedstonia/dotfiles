@@ -60,17 +60,6 @@ window#waybar {
     margin: 0px 5px; 
 }
 
-#custom-vpn
-{
-    padding: 3px 12px 3px 10px;
-    background: rgba(50, 50, 50, 0.4);
-    border-radius: 12px;
-    border: solid;
-    border-width: 2px;
-    border-color: rgb(60, 60, 60);
-    margin: 0px 5px;
-}
-
 #cpu,
 #temperature,
 #clock,
