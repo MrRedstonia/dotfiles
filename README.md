@@ -8,7 +8,7 @@
 
 ## ⚠️ This is made for Arch and may not work properly on other distros.
 
-#### Required packages:
+#### Required packages*:
 
 - hyprland*
 - hypridle*
